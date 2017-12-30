@@ -44,5 +44,5 @@ const drawScore = function () {
   let scoreData = document.getElementById('scoreCard');
   scoreData.style.fontSize = "30px";
   scoreData.style.textAlign = "center";
-  scoreData.innerHTML = `your score is ${score.getScore()}`;
+  scoreData.innerHTML = `Score : ${score.getScore()}`;
 }
