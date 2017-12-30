@@ -6,6 +6,6 @@ Score.prototype.getScore = function () {
   return this.score;
 };
 
-Score.prototype.updateScore = function () {}
+Score.prototype.updateScore = function () {
   return this.score += 10;
 };
